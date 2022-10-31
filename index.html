@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e017802059.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Jumia Clone</title>
 </head>
@@ -16,13 +17,43 @@
                 <h1>JUMIA</h1>
             </div>
             <div class="search">
-                <input type="text" placeholder="Search products, brands and categories">
+                <input type="text" placeholder="Search products, brands and catego......">
                 <button>SEARCH</button>
             </div>
             <div class="icons">
-                <p>Hi Chief</p>
-                <p>Help</p>
-                <p>Cart</p>
+                <ul id="tit">
+                    <li class="tit"><i class="fa-regular fa-user"></i>Account<i class="fa-solid fa-angle-down"></i>
+                        <ul id="dropdown">
+                            <li><button>SIGN IN</button></li>
+                            <li><a href="#"><i class="fa-regular fa-user"></i> My Account</a></li>
+                            <li><a href="#"><i class="fa-solid fa-box"></i> Orders</a></li>
+                            <li><a href="#"><i class="fa-regular fa-heart"></i> Saved Items</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="tit"><i class="fa-regular fa-circle-question"></i>Help<i
+                            class="fa-solid fa-angle-down"></i>
+                        <ul class="dropdowns">
+                            <div>
+
+
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Place & track order</a></li>
+                                <li><a href="#">Order cancellation</a></li>
+                                <li><a href="#">Returns and Refunds </a></li>
+                                <li><a href="#">Payment & Jumia Account </a></li>
+                                <div class="btn">
+                                    <button><i class="fa-regular fa-message"></i>LIVE CHAT</button>
+                                </div>
+                            </div>
+
+                        </ul>
+                    </li>
+                    <li class="tit"><a href="#"><i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+
+                </ul>
+
             </div>
         </div>
     </header>
@@ -30,7 +61,11 @@
         <section class="carousel_container">
             <div class="items"></div>
             <div class="carousel">
-                <!-- <img src="./images/slider_1.jpeg" alt=""> -->
+                <div class="arrows">
+                    <div class="arrow-left arrow"></div>
+                    <div class="arrow-right arrow"></div>
+                    
+                </div>
                 <div class="circles">
                     <div class="circle"></div>
                     <div class="circle"></div>

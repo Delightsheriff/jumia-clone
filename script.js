@@ -6,6 +6,8 @@
 //https://api.apify.com/v2/datasets/sXHUdmKCJLHEdWuM9/items?clean=true&format=json half price
 //https://api.apify.com/v2/datasets/NgopfmIaOx8MGzcy2/items?clean=true&format=json fashion
 
+// https://api.apify.com/v2/datasets/1LYsVC3JNAzgf6zBM/items?clean=true&format=json
+
 
 const itemsArr = ['Supermarket', 'Health & Beauty', 'Home & Office', 'Phones & Tablets', 'Computing', 'Electronics', 'Fashion', 'Baby Products', 'Gaming', 'Sporting Goods', 'AutoMobile', 'Other categories']
 
